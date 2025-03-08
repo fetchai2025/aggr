@@ -4,18 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "cors": "node scripts/cors-server.mjs",
-    "svg2font": "node scripts/svg2font.js",
-    "serve": "vite --host",
-    "prod": "vue-tsc --noEmit && vite build --dest ./temp && rimraf ./dist && mv ./temp ./dist",
-    "build": "vite build",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "clean": "rm -rf node_modules && npm cache clean -f",
-    "serve:dist": "node ./dist-server/index.mjs",
-    "deploy": "node scripts/gh-pages-deploy.mjs"
-    "start": "vite --host"
-
+  "cors": "node scripts/cors-server.mjs",
+  "svg2font": "node scripts/svg2font.js",
+  "serve": "vite --host",
+  "prod": "vue-tsc --noEmit && vite build --dest ./temp && rimraf ./dist && mv ./temp ./dist",
+  "build": "vite build",
+  "lint": "eslint",
+  "lint:fix": "eslint --fix",
+  "clean": "rm -rf node_modules && npm cache clean -f",
+  "serve:dist": "node ./dist-server/index.mjs",
+  "deploy": "node scripts/gh-pages-deploy.mjs",
+  "start": "vite --host"
+}
   },
   "dependencies": {
     "@mdi/font": "^5.6.55",
